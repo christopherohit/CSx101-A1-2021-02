@@ -1,10 +1,7 @@
-import math as m
 
-a = int(input())
-b = int(input())
-c = int(input())
+a , b , c = list(map(float,input().split()))
 
-r = m.sqrt(abs(b))
+r = float(abs(b)**(1/2))
 q = a**5 - 2 * r + a * b * c
-
-print(round(q,2))
+x = format(q,".2f")
+print(x)

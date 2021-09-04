@@ -1,7 +1,8 @@
-a = int(input())
-b = int(input())
+a, b = list(map(int,input().split()))
 
-min = ((a + b)- abs(a-b))/2
-max = ((a + b)+ abs(a-b))/2
-print (max)
-print(min)
+
+max = ((a+b) + abs(a-b))/2
+min = ((a+b) - abs(a-b))/2
+
+print ("max =", int(max))
+print ("min =", int(min))

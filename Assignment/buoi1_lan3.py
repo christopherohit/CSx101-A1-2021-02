@@ -1,4 +1,8 @@
-a = int(input())
-b = a * 0.0704
+from decimal import *
 
-print(round(b,5))
+
+a = float(input())
+b = float(a * 0.0703069)
+getcontext().prec = 6
+
+print(Decimal(b).normalize())

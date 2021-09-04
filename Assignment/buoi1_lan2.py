@@ -1,7 +1,13 @@
 #Transfer to C and K
+from decimal import *
 
-C = float(input())
-Pc = int((C-32) * (5/9))
+
+
+
+c = float(input())
+Pc = ((c-32) * (5/9))
 Pk = float(273.15 + Pc)
-print(Pc)
-print(Pk)
+
+getcontext().prec = 6
+
+print(Decimal(Pc).normalize() , round(Pk,3))
