@@ -6,13 +6,19 @@ và 12 con giáp là
 
 TÝ, SỬU, DẦN, MẸO, THÌN, TỴ, NGỌ, MÙI, THÂN, DẬU, TUẤT, HỢI
 
-Để đặt tên cho một năm âm lịch, người ta sẽ ghép một can với một con giáp. Năm tiếp theo sẽ mang tên của can tiếp theo và con giáp tiếp theo. Ví dụ năm 2015 là năm ẤT MÙI thì năm 2016 sẽ mang can tiếp theo là BÍNH và con giáp tiếp theo là THÂN, như vậy năm 2016 là năm BÍNH THÂN. Một công ty X muốn nhảy vào thị trường làm lịch, hãy giúp công ty X viết phần mềm tính tên âm lịch cho năm.
+Để đặt tên cho một năm âm lịch, người ta sẽ ghép một can với một con giáp. 
+Năm tiếp theo sẽ mang tên của can tiếp theo và con giáp tiếp theo. 
+Ví dụ năm 2015 là năm ẤT MÙI thì năm 2016 sẽ mang can tiếp theo là BÍNH và con giáp tiếp theo là THÂN, 
+như vậy năm 2016 là năm BÍNH THÂN. Một công ty X muốn nhảy vào thị trường làm lịch, 
+hãy giúp công ty X viết phần mềm tính tên âm lịch cho năm.
 
 INPUT
-Một con số nguyên khác 0 có trị tuyệt đối không quá 1 tỷ. Đây là năm cần xét, năm trước công nguyên được quy ước ghi bằng số âm và năm sau công nguyên quy ước ghi bằng số dương.
+Một con số nguyên khác 0 có trị tuyệt đối không quá 1 tỷ. Đây là năm cần xét, 
+năm trước công nguyên được quy ước ghi bằng số âm và năm sau công nguyên quy ước ghi bằng số dương.
 
 OUTPUT
-Tên âm lịch của năm đó, viết hoa toàn bộ, không bỏ dấu. Quy ước để phân biệt Tý và Tỵ thì Tý sẽ viết với dấu nháy kép thay cho dấu sắc
+Tên âm lịch của năm đó, viết hoa toàn bộ, không bỏ dấu. 
+Quy ước để phân biệt Tý và Tỵ thì Tý sẽ viết với dấu nháy kép thay cho dấu sắc
 
 TY'
 

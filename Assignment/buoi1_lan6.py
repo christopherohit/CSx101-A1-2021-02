@@ -1,5 +1,7 @@
 '''
-Để trang trí phòng phục vụ tổ chức sinh nhật cho một người bạn Alice lấy một tờ giấy màu thủ công kẻ ô vuông kích thước n×m (n hàng và m cột), cắt thành hình lò xo xoắn theo hướng phải sang trái và có độ rộng của đường bằng 1:
+Để trang trí phòng phục vụ tổ chức sinh nhật cho một người bạn Alice lấy một tờ giấy màu thủ công 
+kẻ ô vuông kích thước n×m (n hàng và m cột), cắt thành hình lò xo xoắn theo hướng phải sang trái và 
+có độ rộng của đường bằng 1:
 
 Bắt đầu từ biên phải cột 0 cắt lên trên cho đến khi cách lề trên một ô,
 Cắt sang phải theo đường biên dưới cho đến khi cách lề phải một ô,

@@ -10,7 +10,8 @@ n dòng tiếp theo là hai số nguyên a,b(a,b≥1)— a,b lần lượt là t
 
 OUTPUT
 
-Ứng với n dòng, in ra theo thứ tự tử số và mẫu số (cách nhau một khoảng trắng) sau khi rút gọn; mẫu số chỉ được in khi lớn hơn 1.
+Ứng với n dòng, in ra theo thứ tự tử số và mẫu số (cách nhau một khoảng trắng) 
+sau khi rút gọn; mẫu số chỉ được in khi lớn hơn 1.
 '''
 
 

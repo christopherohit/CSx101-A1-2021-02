@@ -1,8 +1,8 @@
-def s(n):
-    if n == 1:
-        return n
-    else:
-        return n * s(n - 1)
+import numpy as np
 
-n = int(input())
-print(s(n))    
+def calcCumulativeSum(arr):
+    l = np.cumsum(arr)
+    return l
+
+arr = [10,20,30,40,50]
+print(calcCumulativeSum(arr))
