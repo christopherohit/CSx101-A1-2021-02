@@ -21,3 +21,24 @@ Dòng thứ 2 chứa số nguyên k (2 ≤ k ≤ n),
 Dòng thứ 3 chứa số nguyên p (1 ≤ p ≤ (n+1)/2),
 Dòng thứ 4 chứa số nguyên q (1 ≤ q ≤ 2).
 '''
+
+n = int(input())
+k = int(input())
+p = int(input()) # Hang
+q = int(input()) # Cot
+
+
+#vi tri Bob
+x = (p - 1) * 2 +q
+
+if k > n /2 and n - k < x <= k:
+    print(-1)
+else:
+    if (x - k ) <= 0:
+        m = x + k
+    if x - k > 0:
+        m = x - k
+    if m%2 == 0:
+        print((m - 2)//2+1 , 2)
+    elif m % 2 != 0 :
+        print((m-1)//2+1, 1)
