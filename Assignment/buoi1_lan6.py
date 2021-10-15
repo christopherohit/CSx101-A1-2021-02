@@ -20,13 +20,10 @@ Kết quả: Đưa ra thiết bị xuất chuẩn một số nguyên – độ d
 
 #Version cuc suc
 
-m , n = [int(x) for x in input().split()]
+n , m = [int(x) for x in input().split()]
 m = m -1
 kq = 0
 a = ((n*(n -1 ))/2)
 p = ((m*(m - 1))/2)
-while n > 0:
-    kq = kq + m -1
-    n = n - 1
 
-print(int(a + kq))
+print(int(a + p))
